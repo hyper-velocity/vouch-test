@@ -1,0 +1,27 @@
+html, body {
+  overflow-x: hidden;
+  transition: all .3s;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity .3s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+:focus-visible {
+  outline: none;
+}
