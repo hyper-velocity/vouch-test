@@ -1,0 +1,148 @@
+[
+  {
+    "user": {
+      "id": 1,
+      "username": "Mary Shelley",
+      "tagline": "Monster of a video editor",
+      "avatar": "https://placekitten.com/g/90/90",
+      "skills": [
+        {
+          "skillId": 123,
+          "name": "Premier Pro",
+          "level": 1
+        },
+        {
+          "skillId": 456,
+          "name": "Video Editing",
+          "level": 4
+        },
+        {
+          "skillId": 789,
+          "name": "After Effects",
+          "level": 1
+        }
+      ]
+    },
+    "userSubmissionURL": "https://placekitten.com/g/390/844"
+  },
+  {
+    "user": {
+      "id": 2,
+      "username": "Bram Stoker",
+      "tagline": "Blood-curlingly good video wiz",
+      "avatar": "https://placekitten.com/g/90/90",
+      "skills": [
+        {
+          "skillId": 123,
+          "name": "Premier Pro",
+          "level": 4
+        },
+        {
+          "skillId": 456,
+          "name": "Video Editing",
+          "level": 2
+        },
+        {
+          "skillId": 789,
+          "name": "After Effects",
+          "level": 5
+        }
+      ]
+    },
+    "userSubmissionURL": "https://placekitten.com/g/390/844"
+  },
+  {
+    "user": {
+      "id": 3,
+      "username": "William Gibson",
+      "tagline": "Fixin' to edit your videos",
+      "avatar": "https://placekitten.com/g/90/90",
+      "skills": [
+        {
+          "skillId": 432,
+          "name": "Lightroom",
+          "level": 4
+        },
+        {
+          "skillId": 456,
+          "name": "Video Editing",
+          "level": 1
+        },
+        {
+          "skillId": 789,
+          "name": "After Effects",
+          "level": 3
+        }
+      ]
+    },
+    "userSubmissionURL": "https://placekitten.com/g/390/844"
+  },
+  {
+    "user": {
+      "id": 4,
+      "username": "Neil Gaiman",
+      "tagline": "Creating the videos of your dreams",
+      "avatar": "https://placekitten.com/g/90/90",
+      "skills": [
+        {
+          "skillId": 123,
+          "name": "Premier Pro",
+          "level": 3
+        },
+        {
+          "skillId": 456,
+          "name": "Video Editing",
+          "level": 3
+        },
+        {
+          "skillId": 789,
+          "name": "After Effects",
+          "level": 2
+        }
+      ]
+    },
+    "userSubmissionURL": "https://placekitten.com/g/390/844"
+  },
+  {
+    "user": {
+      "id": 5,
+      "username": "Arthur C. Clarke",
+      "tagline": "An odyssey for your audience!",
+      "avatar": "https://placekitten.com/g/90/90",
+      "skills": [
+        {
+          "skillId": 789,
+          "name": "After Effects",
+          "level": 5
+        }
+      ]
+    },
+    "userSubmissionURL": "https://placekitten.com/g/390/844"
+  },
+  {
+    "user": {
+      "id": 6,
+      "username": "Stephen Graham Jones",
+      "tagline": "Terrifyingly good native experiences",
+      "avatar": "https://placekitten.com/g/90/90",
+      "skills": [
+        {
+          "skillId": 432,
+          "name": "Lightroom",
+          "level": 2
+        },
+        {
+          "skillId": 456,
+          "name": "Video Editing",
+          "level": 5
+        },
+        {
+          "skillId": 789,
+          "name": "After Effects",
+          "level": 2
+        }
+      ]
+    },
+    "userSubmissionURL": "https://placekitten.com/g/390/844"
+  }
+]
