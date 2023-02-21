@@ -6,33 +6,57 @@
   "author": "James Li",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.ts,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "lint": "eslint --ext .ts,.vue ./",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "@quasar/extras": "^1.15.1",
+    "@vueuse/core": "^9.1.0",
     "axios": "^0.21.1",
-    "@quasar/extras": "^1.0.0",
-    "quasar": "^2.6.0",
+    "quasar": "^2.11.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.0.3",
+    "@ehutch79/vite-eslint": "^0.0.1",
+    "@mdi/font": "^7.0.96",
+    "@quasar/app-vite": "^1.2.0",
+    "@types/node": "^12.20.21",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "commitlint": "^17.0.3",
+    "dotenv": "^16.0.1",
     "eslint": "^8.10.0",
-    "eslint-plugin-vue": "^9.0.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
-    "@types/node": "^12.20.21",
-    "@quasar/app-vite": "^1.0.0",
-    "autoprefixer": "^10.4.2",
-    "typescript": "^4.5.4"
+    "eslint-plugin-vue": "^9.0.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^13.0.3",
+    "typescript": "^4.5.4",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^2.9.15",
+    "vite-plugin-pages": "^0.25.0",
+    "vite-plugin-vue-layouts": "^0.7.0",
+    "vite-plugin-windicss": "^1.8.7",
+    "vitest": "^0.28.3",
+    "windicss": "^3.5.6"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
+  },
+  "lint-staged": {
+    "*.{vue,ts,tsx}": [
+      "yarn lint"
+    ]
   }
 }
