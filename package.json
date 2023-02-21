@@ -14,7 +14,6 @@
   "dependencies": {
     "@quasar/extras": "^1.15.1",
     "@vueuse/core": "^9.1.0",
-    "axios": "^0.21.1",
     "quasar": "^2.11.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0"
@@ -29,8 +28,8 @@
     "@typescript-eslint/parser": "^5.10.0",
     "@vue/eslint-config-standard": "^8.0.1",
     "@vue/eslint-config-typescript": "^11.0.0",
+    "autoprefixer": "^10.4.13",
     "commitlint": "^17.0.3",
-    "dotenv": "^16.0.1",
     "eslint": "^8.10.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.19.1",
